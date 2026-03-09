@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/bodhekarvarad/AMC#readme",
   "dependencies": {
+    "ejs": "^5.0.1",
+    "ejs-mate": "^4.0.0",
     "express": "^5.2.1"
   }
 }
