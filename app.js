@@ -1,5 +1,6 @@
 const express = require('express');
 const ejsMate = require('ejs-mate');
+const path = require("path");
 const app = express();
 const port=3000;
 //middlewares
@@ -13,6 +14,9 @@ app.use(express.static('public'));
 //dashboard
 app.get('/',(req,res)=>{
     res.send('Dashboard is spaces');
+});
+app.get('/navbar',(req,res)=>{
+    res.render('.../views/includes/navbar.ejs');
 });
 
 
