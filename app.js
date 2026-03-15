@@ -31,8 +31,8 @@ app.get('/', (req, res) => {
     res.send('Dashboard is spaces');
 });
 
-app.get('/navbar', (req, res) => {
-    res.render('includes/navbar');
+app.get('/auth/login', (req, res) => {
+    res.render('auth/login');
 });
 
 //server starting
